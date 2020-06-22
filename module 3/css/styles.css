@@ -1,0 +1,146 @@
+/* font-family: "Playfair Display", serif; */
+/* font-family: "Ubuntu", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+button {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.container {
+  max-width: 902px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-top {
+  padding-top: 78px;
+  padding-bottom: 104px;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: inline-block;
+  margin: auto;
+  font-size: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 102px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item-link {
+  transition: color 0.2s linear;
+  line-height: 24px;
+  color: #626262;
+}
+
+.menu__item-link:hover {
+  color: #25b4f5;
+}
+
+.menu__item-link--active {
+  color: #25b4f5;
+}
+
+.container-2 {
+  margin: 0 auto;
+  max-width: 902px;
+  padding-bottom: 70px;
+}
+
+.main_part {
+  font-size: 0;
+  margin-bottom: 54px;
+}
+.main_part-items {
+  font-size: 14px;
+  max-width: 421px;
+  max-height: 500px;
+  text-align: left;
+  margin-bottom: 136px;
+}
+
+.main_part-items:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.main_part-items:nth-child(even) {
+  margin-left: 30px;
+}
+
+.main_part-items:nth-last-child(1),.main_part-items:nth-last-child(2){
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-top: 24px;
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  line-height: 1.2;
+}
+
+.title {
+  margin-top: 20px;
+  color: #626262;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.text {
+  margin-top: 32px;
+  color: #626262;
+  line-height: 24px;
+}
+
+.btn {
+  width: 164px;
+  height: 60px;
+  border: 2px solid #626262;
+  border-radius: 2px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  transition: 0.3s linear all;
+}
+
+.btn:hover {
+  background-color: #626262;
+  color: #ffffff;
+}

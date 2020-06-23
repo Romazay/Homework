@@ -31,7 +31,7 @@ a {
 }
 
 .container {
-  max-width: 902px;
+  max-width: 932px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -78,11 +78,7 @@ a {
   color: #25b4f5;
 }
 
-.container-2 {
-  margin: 0 auto;
-  max-width: 902px;
-  padding-bottom: 70px;
-}
+
 
 .main_part {
   font-size: 0;
@@ -143,4 +139,8 @@ a {
 .btn:hover {
   background-color: #626262;
   color: #ffffff;
+}
+
+.section-1{
+  margin-bottom: 70px;
 }
